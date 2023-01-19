@@ -1,0 +1,35 @@
+.post {
+  border: 1px solid #ccc;
+  max-width: 50%;
+  margin: 2vmin auto;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.post .title {
+  background-color: yellowgreen;
+}
+
+.post .title h3 {
+  margin: 0;
+  padding: 2vmin;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.post .footer {
+  margin-top: 6vmin;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.post .footer > * {
+  margin: 10px;
+}
+
+.post .footer .poster {
+  font-style: italic;
+  color: yellowgreen;
+}

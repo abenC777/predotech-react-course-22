@@ -1,0 +1,28 @@
+.login-panel {
+  background-color: yellowgreen;
+  max-width: 20%;
+  margin: 4vmin auto;
+  padding: 3vmin 4vmax;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(212, 207, 207, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 207, 207, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(212, 207, 207, 0.75);
+  border: solid 1px #ccc;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.login-panel button {
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 15px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-panel button:hover {
+  color: white;
+  background-color: rgb(65, 124, 22);
+  transition: all 0.5s;
+}

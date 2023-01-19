@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  background-image: radial-gradient(#bec4bd 0.9px, white 0.9px);
+  background-size: 18px 18px;
+}
+
+.welcome-message {
+  background-color: white;
+  max-width: 20%;
+  margin: 4vmin auto;
+  padding: 3vmin 4vmax;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(212, 207, 207, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 207, 207, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(212, 207, 207, 0.75);
+  border: solid 1px #ccc;
+}
